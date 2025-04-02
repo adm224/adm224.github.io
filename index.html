@@ -2,30 +2,42 @@
 <head>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
 
-<div class=all>
+<div class='page'> 
 
-<div class="flexParent1">
+<div class='header1'>The Fundamentals of LSAT/GMAT Logical Reasoning</div>
 
-  <div class=flex1-a></div>
-  <div class=flex1-b></div>
-  <div class=flexParent2>
-      <div class=flex2-a></div>
-      <div class=flexParent3>
-        <div class=flex3-a></div>
-        <div class=flex3-b></div>
-        <div class=flex3-c></div>
-      </div>
-      <div class=flex2-b></div>
-    <div class=flex2-c></div>
+<div class='button-box'>
+
+  <button onclick="showIt('divvy1')">div1</button>
+  <button onclick="showIt('divvy2')">div2</button>
+
+</div>
+
+
+  <div class='low-page'>
+  
+    <div class='bottom'>
+  
+<div id="divvy1" style="display:block">
+<div class="box red">
+TOPIC-1
+</div>
+</div>
+
+<div id="divvy2" style="display:none">
+<div class="box blue">
+TOPIC-2
+</div>
+</div>
+
+    </div>
+
   </div>
-  <div class=flex1-c></div>
   
 </div>
 
-</div>
 
 <script src="script.js"></script>
 </body>
