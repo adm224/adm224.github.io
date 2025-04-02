@@ -7,84 +7,59 @@ body {
   margin: 0;
 }
 
-.all {
-  height: 100%;
-}
-
-.flexParent1 {
-  margin: 2%;
-  height: 90%;
-  display: flex;
-  flex-direction: row;
-  border: solid black;
-}
-
-.flexParent2 {
-  margin: 5px;
+.page {
   display: flex;
   flex-direction: column;
-  border: solid darkgreen;
-  flex: 1;
+  background-image: linear-gradient(#008081, #e8ffed, #e8ffed, #e8ffed, #e8ffed);
+  height: 700px;
 }
 
-.flexParent3 {
-  margin: 5px;
+.header1 {
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+.button-box {
+  //put parent inside here
+}
+
+.low-page {
+  margin-top: 20px;
+  flex: 1;
+  border: solid red 4px;
+  padding: 1%;
+}
+
+.bottom {
   display: flex;
-  flex-direction: row;
-  border: solid navy;
-  flex: 1;
-}
-
-.flex1-a {
-  margin: 5px;
-  flex: 1;
-  border: solid red;
-}
-
-.flex1-b {
-  margin: 5px;
-  flex: 1;
-  border: solid purple;
-}
-
-.flex1-c {
-  margin: 5px;
-  flex: 1;
-  border: solid blue;
-}
-
-.flex2-a {
-  margin: 5px;
-  flex: 1;
+  flex-wrap: wrap;
   border: solid green;
+  justify-content: center; 
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.flex2-b {
-  margin: 5px;
-  flex: 1;
-  border: solid lightgreen;
+.box {
+  height: 340px;
+  width: 356px;
 }
 
-.flex2-c {
-  margin: 5px;
-  flex: 1;
-  border: solid teal;
+.red {
+  background-color: crimson;
+  color:white;
 }
 
-.flex3-a {
-  margin: 5px;
-  flex: 1;
-  border: solid pink;
+.blue{
+  background-color: navy;
+  color:gold;
+  border-radius: 60%;
 }
 
-.flex3-b {
-  margin: 5px;
-  flex: 1;
-  border: solid magenta;
-}
-
-.flex3-c {
-  margin: 5px;
-  flex: 1;
-  border: solid purple;
 }
