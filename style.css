@@ -4,62 +4,149 @@ html {
 
 body {
   height: 100%;
-  margin: 0;
+  margin: 0%;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(#008081, #e8ffed, #e8ffed, #e8ffed, #e8ffed);
-  height: 700px;
+.megaBox {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  height: 50%;
+  width: 50%;
+  xborder: solid;
+  /* animation: rotate 20s linear infinite; */
 }
 
-.header1 {
-  margin-top: 3%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 2%;
-  text-align: center;
-  color: white;
-  font-size: 120%;
-  font-family: Courier New;
-  font-weight: bold;
+.circle {
+  position: relative;
+  top: 50%;
+  left: 0%;
+  height: 7px;
+  width: 7px;
+  background-color: black;
+  /* animation: circle 20s linear infinite; */
+  border-radius: 50%;
+  border: 1px solid;
 }
 
-.button-box {
-  //put parent inside here
+.AmegaBox20 {
+  animation: rotate 20s linear infinite;
 }
 
-.low-page {
-  margin-top: 20px;
-  flex: 1;
-  border: solid red 4px;
-  padding: 1%;
+.AmegaBox19 {
+animation: rotate 19s linear infinite;
 }
 
-.bottom {
-  display: flex;
-  flex-wrap: wrap;
-  border: solid green;
-  justify-content: center; 
-  padding-left: 50px;
-  padding-right: 50px;
+.AmegaBox18 {
+animation: rotate 18s linear infinite;
 }
 
-.box {
-  height: 340px;
-  width: 356px;
+.megaBox.AmegaBox17 {
+animation: rotate 17s linear infinite;
 }
 
-.red {
-  background-color: crimson;
-  color:white;
+.megaBox.AmegaBox16 {
+animation: rotate 16s linear infinite;
 }
 
-.blue{
-  background-color: navy;
-  color:gold;
-  border-radius: 60%;
+.megaBox.AmegaBox15 {
+animation: rotate 15s linear infinite;
 }
 
+.megaBox.AmegaBox14 {
+animation: rotate 14s linear infinite;
+}
+
+.megaBox.AmegaBox13 {
+animation: rotate 13s linear infinite;
+}
+
+.megaBox.AmegaBox12 {
+animation: rotate 12s linear infinite;
+}
+
+.megaBox.AmegaBox11 {
+animation: rotate 11s linear infinite;
+}
+
+.megaBox.AmegaBox10 {
+animation: rotate 10s linear infinite;
+}
+ 
+ .Acircle20 {
+  animation: circle 20s linear infinite;
+}
+
+.Acircle19 {
+  animation: circle 19s linear infinite;
+}
+
+.Acircle18 {
+  animation: circle 18s linear infinite;
+}
+
+.Acircle17 {
+  animation: circle 17s linear infinite;
+}
+
+.Acircle16 {
+  animation: circle 16s linear infinite;
+}
+
+.Acircle15 {
+  animation: circle 15s linear infinite;
+}
+
+.Acircle14 {
+  animation: circle 14s linear infinite;
+}
+
+.Acircle13 {
+  animation: circle 13s linear infinite;
+}
+
+.Acircle12 {
+  animation: circle 12s linear infinite;
+}
+
+.Acircle11 {
+  animation: circle 11s linear infinite;
+}
+
+.Acircle10 {
+  animation: circle 10s linear infinite;
+}
+@keyframes circle {
+  0% {
+    left: 0%;
+    top: 50%;
+  }
+  
+  25% {
+  top: 100%;
+}
+  
+ 50% {
+    left: 100%;
+    top: 50%;
+  }
+  
+75% {
+  top: 0%
+}
+  
+  100% {
+    top: 50%;
+    left: 0%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(360deg);
+  }
+  
+  100% {
+    transform:rotate(0deg);
+  }
 }
