@@ -4,7 +4,39 @@ html {
 
 body {
   height: 100%;
-  margin: 0%;
+  margin: 0;
+}
+
+.page {
+  background-image: linear-gradient(#008081, #008081, #e8ffed, #e8ffed, #e8ffed);
+  height: 700px;
+}
+
+.header1 {
+  padding: 1%;
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  font-family: Courier New;
+  font-weight: bold;
+  Xborder: solid;
+}
+
+.exp {
+  margin-left: auto;
+  margin-right: auto;
+  Xborder: solid white;
+}
+
+.button-box {
+  margin-top: 10px;
+  display: flex;
+  Xborder: solid 1px;
+}
+
+.button-class {
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .megaBox {
@@ -13,8 +45,8 @@ body {
   top: 30%;
   height: 50%;
   width: 50%;
-  xborder: solid;
-  /* animation: rotate 20s linear infinite; */
+  Xborder: solid;
+  animation: rotate 20s linear infinite;
 }
 
 .circle {
@@ -23,14 +55,10 @@ body {
   left: 0%;
   height: 7px;
   width: 7px;
-  background-color: black;
-  /* animation: circle 20s linear infinite; */
+  background-color: lightgreen;
+  animation: circle 20s linear infinite;
   border-radius: 50%;
-  border: 1px solid;
-}
-
-.AmegaBox20 {
-  animation: rotate 20s linear infinite;
+  xborder: 1px;
 }
 
 .AmegaBox19 {
@@ -72,10 +100,7 @@ animation: rotate 11s linear infinite;
 .megaBox.AmegaBox10 {
 animation: rotate 10s linear infinite;
 }
- 
- .Acircle20 {
-  animation: circle 20s linear infinite;
-}
+
 
 .Acircle19 {
   animation: circle 19s linear infinite;
@@ -115,7 +140,8 @@ animation: rotate 10s linear infinite;
 
 .Acircle10 {
   animation: circle 10s linear infinite;
-}
+} 
+
 @keyframes circle {
   0% {
     left: 0%;
