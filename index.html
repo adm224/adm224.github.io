@@ -14,9 +14,11 @@ The Fundamentals of Conditional Reasoning
 
   <div class='exp'>
   
-  <button onclick="showIt('divvy1')" class='button-class'>Lesson 1</button>
-  <button onclick="showIt('divvy2')" class='button-class'>Lesson 2</button>
-  <button onclick="showIt('divvy3')" class='button-class'>Lesson 3</button>
+  <button onclick=showIt('divvy1') class='button-class'>Lesson 1</button>
+  <button onclick=showIt('divvy2') class='button-class'>Lesson 2</button>
+  <button onclick=showIt('divvy3') class='button-class'>Lesson 3</button>
+  <button onclick=showIt('divvy4') class='button-class'>Lesson 4</button>
+  <button onclick=showIt('divvy5') class='button-class'>Lesson 5</button>
   
   <!-- I want the front page to dissapear when a lesson is clicked and for there to be a button that appears that would allow people to go home... No, it should be very simple: just a menu that stays at the top. It should be the header that changes. -->
   </div>
@@ -44,14 +46,14 @@ The Fundamentals of Conditional Reasoning
 
 <!-- This is where my content for Lesson 2 will go -->
 
-<div id="divvy2">
+<div id="divvy2" style='display:none'>
 
   <div class="paragraph blue">
-  TOPIC-2</div>
+  LESSON-2</div>
   
 </div>
 
-<div id="divvy3">
+<div id="divvy3" style='display:none'>
 
   <div class="flex_1 paragraph clear">
   <div class=megaBox>
@@ -207,6 +209,19 @@ The Fundamentals of Conditional Reasoning
   </div></div> <!-- end of paragraph div 
    -->
   
+</div> <!-- end of divvy3 -->
+
+<div id="divvy4" style='display:none'>
+
+  <div class="paragraph blue">
+  LESSON-4</div>
+  
+</div>
+
+<div id="divvy5" style='display:none'>
+
+  <div class="paragraph blue">
+  LESSON-5</div>
   
 </div>
 
