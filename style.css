@@ -5,6 +5,8 @@ html {
 body {
   height: 100%;
   margin: 0;
+  background-color: black;
+  color: white;
 }
 
 .page {
@@ -13,7 +15,7 @@ body {
   width: 100%;
   flex-direction: column;
   X background-image: linear-gradient(#008081, #008081, #e8ffed, #e8ffed, #e8ffed);
-  background: white;
+  background: transparent;
   text-align: center;
 }
 
@@ -26,7 +28,7 @@ body {
   margin: 1%;
   border-radius: 50%;
   border: 0px;
-  color: black;
+  color: white;
   background-color: transparent;
   font-size: 300%;
   height: 90px;
@@ -37,8 +39,7 @@ body {
   scale: 98%;
   transition: 1s;
   background-color: red;
-  xborder:3px solid black;
-  color: white;
+  border: 3px solid black;
 }
 
 /* @media only screen and (max-width : 667px) { what I want for iphone use
@@ -62,14 +63,7 @@ body {
 
 .red-box {
   flex: 9;
-  xborder: solid red
 }
-
-/* .absoluteBox1 {
-position: absolute;
-height: 100%;
-width: 100%;
-} */
 
 .mBox {
   position: var(--position);
@@ -110,7 +104,7 @@ width: 100%;
   --border: none;
   --top: 3%;
   --position: relative;
-  --background-color: black;
+  --background-color: white;
   --animationName: circleRibbon;
 }
 
