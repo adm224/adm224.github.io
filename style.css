@@ -88,7 +88,7 @@ width: 100%;
 }
 
 .circleBeta {
-  position: relative;
+  position: var(--position);
   top: 150%;
   left: 0%;
   height: var(--height);
