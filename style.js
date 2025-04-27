@@ -1,9 +1,10 @@
 
+ 
 let slow = true;
 
 function changeD() {
   const root = document.documentElement;
-  root.style.setProperty('--animationDuration', slow ? '40s' : '20s');
+  root.style.setProperty('--animationDuration', slow ? '60s' : '20s');
   slow = !slow;
 }
 
@@ -25,13 +26,12 @@ function changeB() {
   bor = !bor;
 }
 
-let pos = true;
+let box = true;
 
 function changePT() {
   const root = document.documentElement;
-  root.style.setProperty('--position', pos ? 'absolute' : 'relative');
-  root.style.setProperty('--top', pos ? '50%' : '3%');
-  pos = !pos;
+  root.style.setProperty('--boxShadow', box ? '10px 1px' : 'none');
+  box = !box;
 }
 
 let bac = true;
@@ -43,3 +43,9 @@ function changeBC() {
 }
 
 let nam = true;
+
+/* function changeN() {
+  const root = document.documentElement;
+  root.style.setProperty('--animationName', nam ? 'none' : 'circleRibbon');
+  nam = !nam;
+} */
